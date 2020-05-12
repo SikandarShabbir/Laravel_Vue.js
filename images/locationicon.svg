@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="39px" viewBox="0 0 35 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>A599871F-46C3-456C-A5C9-BDD42ECD61CB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-4.4%" y="-10.9%" width="108.8%" height="121.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0.00234375 3.90625e-05 15.5350391 3.90625e-05 15.5350391 20 0.00234375 20"></polygon>
+    </defs>
+    <g id="Booking-tool" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Setting" transform="translate(-430.000000, -1340.000000)">
+            <g id="Group-10" filter="url(#filter-1)" transform="translate(420.000000, 1271.000000)">
+                <g id="Group-15" transform="translate(20.000000, 20.000000)">
+                    <g id="Group-4" transform="translate(0.000000, 56.000000)">
+                        <g id="Group">
+                            <g id="location-icon" transform="translate(0.000000, 3.000000)">
+                                <g id="Group-3">
+                                    <mask id="mask-3" fill="white">
+                                        <use xlink:href="#path-2"></use>
+                                    </mask>
+                                    <g id="Clip-2"></g>
+                                    <path d="M15.5350391,7.76753906 C15.5350391,13.9872266 8.51351562,19.7475781 8.51351562,19.7475781 C8.10324219,20.0841797 7.43179687,20.0841797 7.02152344,19.7475781 C7.02152344,19.7475781 0,13.9872266 0,7.76753906 C3.90625e-05,3.47765625 3.47769531,3.90625e-05 7.76753906,3.90625e-05 C12.0573828,3.90625e-05 15.5350391,3.47765625 15.5350391,7.76753906" id="Fill-1" fill="#F5333F" mask="url(#mask-3)"></path>
+                                </g>
+                                <path d="M7.76753906,11.6754297 C5.61269531,11.6754297 3.85964844,9.92234375 3.85964844,7.76757812 C3.85964844,5.61277344 5.61273438,3.85964844 7.76753906,3.85964844 C9.92230469,3.85964844 11.6753906,5.61273437 11.6753906,7.76753906 C11.6753906,9.92230469 9.92238281,11.6754297 7.76753906,11.6754297" id="Fill-4" fill="#EFEFEF"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

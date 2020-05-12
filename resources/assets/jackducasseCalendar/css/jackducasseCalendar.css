@@ -1,0 +1,186 @@
+.cld-main{
+  width: 100%;
+}
+.cld-main a{
+  color: #333;
+  font-weight: bold;
+}
+.cld-datetime {
+    position: relative;
+    width: 66%;
+    min-width: 100px;
+    max-width: 300px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0 30px 0;
+}
+  .cld-datetime .today{
+    position: relative;
+    float: left;
+    width: calc(100% - 40px);
+    margin: auto;
+    text-align: center;
+    margin: 8px 0 0;
+  }
+  .cld-nav{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+  }
+  .cld-nav:hover{
+    cursor: pointer;
+  }
+  .cld-nav:hover svg{
+      /*fill: #666;*/
+  }
+  .cld-rwd{
+    float: left;
+  }
+  .cld-fwd{
+    float: right;
+  }
+    .cld-nav svg:hover{
+
+    }
+.cld-labels, .cld-days{
+  padding-left: 0;
+}
+  .cld-label, .cld-day{
+    display: inline-block;
+    width: 14.28%;
+    color: #333333;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.37px;
+    line-height: 19px;
+    text-align: center;
+    margin: 0 0 12px 0;
+  }
+ul.cld-labels li.cld-label {
+    padding: 5px 0;
+}
+ul.cld-labels li.cld-label:nth-child(2n) {
+  background-color: #F2F2F2;
+}
+.cld-rwd.cld-nav i, .cld-fwd.cld-nav i {
+    color: #F5333F;
+    font-size: 32px;
+    font-weight: 600;
+}
+.cld-datetime .today {
+  color: #333333;
+  font-family: Lato;
+  font-size: 20px;
+  letter-spacing: -0.37px;
+  line-height: 24px;
+  text-align: center;
+}
+.cld-day.today .cld-number{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    background: #41e4c7bd;
+    color: #fff;
+  }
+  .cld-day.disableDay{
+    opacity: 0.5;
+  }
+  .cld-day.nextMonth, .cld-day.prevMonth{
+    opacity: 0.33;
+  }
+    .cld-number{
+      position: relative;
+      margin: 5px;
+      padding: 5px;
+      color: #333333;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: -0.37px;
+      line-height: 25px;
+      text-align: center;
+      width:35px;
+      height:35px;
+      background-color: #EFEFEF;
+      margin: auto;
+      border-radius: 50%;
+    }
+      .cld-title{
+        position: absolute;
+        z-index: 5;
+        display: none;
+        top: 30px;
+        left: 0;
+        padding: 5px 10px;
+        background: #fff;
+        white-space: nowrap;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 12px;
+      }
+      .cld-number:hover .cld-title{
+        display: block;
+      }
+      .cld-title::before{
+        content: '';
+        position: absolute;
+        top: -7.5px; left: 7.5px;
+        width: 0;
+        height: 0;
+        border-left: 7.5px solid transparent;
+        border-right: 7.5px solid transparent;
+
+        border-bottom: 7.5px solid #ccc;
+      }
+      .cld-number.eventday {
+          display: inline-block;
+          height: 35px;
+          width: 35px;
+          border-radius: 50%;
+          /*border: 1px solid #999;*/
+          padding: 0;
+          line-height: 35px;
+      }
+      .cld-number.eventday.closed{
+        background: #242729;
+        color: #fff;
+        border-color:  #242729;
+      }
+
+      .cld-number.eventday.selected{
+        color: #fff;
+        background: #21c889;
+      }
+      .cld-number.eventday.notAvailable, .cld-number.eventday.notAvailable:hover {
+          background: #f4333f;
+          border-color: #f4333f;
+          color: #fff;
+      }
+      .closed .cld-number {
+          background-color: #242729;
+          color: #fff;
+          border-color: #242729;
+      }
+      .cld-number.eventday.notAvailable:before{
+        /*content: "\2715";*/
+        content: "\\";
+        color: #000;
+        position: absolute;
+        font-size: 40px;
+        font-weight: 600;
+        -webkit-transform: rotate(-30deg);
+        transform: rotate(-30deg);
+        top: -2px;
+        left: 7px;
+      }
+
+      /*.cld-number.eventday:hover{
+        cursor: pointer;
+        background: #eee;
+      }*/
+      .today .cld-number.eventday:hover{
+        background: #41e4c7bd;
+      }
